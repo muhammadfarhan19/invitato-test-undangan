@@ -86,15 +86,14 @@
   background-color: #b4c5d5;
 }
 
-@media (max-width: 600px) {
-  .content-cover,
-  .content-welcome {
+@media (max-width: 500px) {
+  .content-cover {
     width: 100%;
   }
 }
 
 @media (max-width: 1024px) {
-  
+
   .content-cover {
     box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.44);
     -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.44);
