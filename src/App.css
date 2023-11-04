@@ -10,10 +10,7 @@
   height: 100vh;
   display: flex;
   gap: 8px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position-y: bottom;
-  /* background-image: url(https://user-images.githubusercontent.com/10141928/147430939-8124ff5c-4df1-495f-a4f9-ee6eb839f03e.jpeg); */
+  background-color: #b4c5d5;
 }
 
 @media (max-width: 1024px) {
