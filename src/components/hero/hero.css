@@ -1,0 +1,44 @@
+.content-hero {
+  width: calc(100vw - 500px);
+  height: 100vh;
+  background-image: url(https://user-images.githubusercontent.com/10141928/147430939-8124ff5c-4df1-495f-a4f9-ee6eb839f03e.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 42px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  /* gap:; */
+  opacity: 0.8;
+  color: #67544e;
+}
+
+.content-hero .title {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.content-hero .name {
+  font-family: "Clicker Script", cursive;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 1;
+  margin: 32px 0;
+  letter-spacing: 2px;
+}
+
+.content-hero .text {
+  font-style: italic;
+  max-width: 500px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 1024px) {
+  .content-hero {
+    display: none;
+  }
+}
