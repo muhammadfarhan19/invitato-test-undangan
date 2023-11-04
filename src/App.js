@@ -5,14 +5,16 @@ import "animate.css";
 import { Hero } from "./components/hero/Hero";
 import { Cover } from "./components/cover/Cover";
 import { Welcome } from "./components/welcome/Welcome";
+import music from "./assets/music.mp3"
 
 function App() {
   const [click, setClick] = useState(true);
-  const audio = useRef(null);
+
+  const audio = new Audio(music)
 
   const handleClick = () => {
     setClick(false);
-    if (audio.current) audio.current.play();
+    audio.play();
   };
 
   return (
@@ -26,9 +28,6 @@ function App() {
       ) : (
         <Welcome className="animate__animated animamte__fadeIn" />
       )}
-      <audio ref={audio}>
-        <source src="./assets/music.mp3" type="audio/mpeg" />
-      </audio>
     </div>
   );
 }
