@@ -1,8 +1,15 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### `Hello`
+
+Hi! *Muhammad Farhan Hamidie* here, and I served this project to meet the application challenges of Invitato Semarang as a Software Engineer.
+
+I have deployed the project on [Vercel](https://vercel.com), you can visit it [here](https://invitato-test-undangan.vercel.app/)
+
+Enjoy!
+
+##
 
 In the project directory, you can run:
 
